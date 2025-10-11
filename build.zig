@@ -99,6 +99,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Module playing (streaming)",
         },
         .{
+            .name = "delta_time",
+            .path = "examples/core/delta_time.zig",
+            .desc = "Delta Time",
+        },
+        .{
             .name = "basic_screen_manager",
             .path = "examples/core/basic_screen_manager.zig",
             .desc = "Illustrates simple screen manager based on a state machine",
